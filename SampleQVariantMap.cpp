@@ -40,7 +40,6 @@ void SampleQVariantMap::initialize()
     qDebug() << "[four]の内容" << this->_mapVariant[ "four" ].toString();
     qDebug() << "[five]の内容" << this->_mapVariant[ "five" ].toInt();
     qDebug() << "[six]の内容" << this->_mapVariant[ "six" ].toFloat();
-    qDebug() << "[six]の内容" << this->_mapVariant[ "XXX" ].toFloat();
 
     // QListの要素削除
     this->_mapVariant.remove( "five" );
