@@ -45,10 +45,10 @@ void SampleQMap::initialize()
     listLength = _listKey.length();
 
     qDebug() << "";
-    qDebug() << "QListの要素数：" << listLength;
+    qDebug() << "QMapの要素数：" << listLength;
 
     for ( int i=0; i<listLength; i++ ) {
-        qDebug() << "QList[" << _listKey[i] << "]の内容：" << this->_mapNumber.value( _listKey[i] );
+        qDebug() << "QMap[" << _listKey[i] << "]の内容：" << this->_mapNumber.value( _listKey[i] );
     }
 
 }
